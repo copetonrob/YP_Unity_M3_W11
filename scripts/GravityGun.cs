@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class GravityGun1 : MonoBehaviour
+public class GravityGun : MonoBehaviour
 {
     //скорость запуска объекта
     public float launchSpeed = 40;

@@ -10,17 +10,17 @@
 
 1) Открой стартовую сцену. В этой сцене есть несколько врагов и работают базовые механики (кроме стрельбы)
 
-Создай несколько объектов в сцене и добавь им компоненты Rigidbody. Это может быть что угодно, например обычные кубики
+Создай несколько объектов в сцене и добавь им компоненты Rigidbody. Это может быть что угодно, например обычные кубики. Они нужны нам, чтобы было что притягивать и отталкивать гравитационной пушкой.
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/Cubes.png" width="600"/>
 
-Выстави у этих объектов Collision Detection -> Continuous Speculative
+Выстави у этих объектов Interpolate -> Interpolate и Collision Detection -> Continuous Speculative
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/Collision.png" width="400"/>
 
 2) Создай скрипт [GravityGun.cs](https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/scripts/GravityGun.cs) и скопируй в него содержимое. Замени ??? на правильные фрагменты кода. Этот скрипт притягивает объект, в который мы стреляем лучом через прицел в центре экрана. Если мы еще раз нажимаем левую кнопку мыши, то мы отталкиваем предмет с большой скоростью.
 
-Внутри объекта Player есть объект Weapon.
+3) Внутри объекта Player есть объект Weapon.
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/WeaponGameObject.png" width="400"/>
 
@@ -28,6 +28,6 @@
 
 <img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/GravityGunComponent.png" width="400"/>
 
-Теперь мы можем метать предметы во врагов. Но враги никак на это не реагируют! Модифицируй скрипт [EnemyHealth.cs](https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/scripts/EnemyHealth.cs) так, чтобы при столкновении с объектом на высокой скорости враг получал урон.
+4) Теперь мы можем метать предметы во врагов. Но враги никак на это не реагируют! Модифицируй скрипт [EnemyHealth.cs](https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/scripts/EnemyHealth.cs) так, чтобы при столкновении с объектом на высокой скорости враг получал урон.
 
-4) Запусти сцену и проверь, что все работает.
+5) Запусти сцену и проверь, что все работает.

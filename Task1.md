@@ -10,8 +10,16 @@
 
 1) Открой стартовую сцену. В этой сцене есть несколько врагов и работают базовые механики (кроме стрельбы)
 
-2) Создай скрипт GravityGun.cs и скопируй в него содержимое. Расскомментируй фрагменты кода и дополни их.
+2) Создай скрипт [GravityGun.cs](https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/scripts/GravityGun.cs) и скопируй в него содержимое. Замени ??? на правильные фрагменты кода. Этот скрипт притягивает объект, в который мы стреляем лучом через прицел в центре экрана. Если мы еще раз нажимаем левую кнопку мыши, то мы отталкиваем предмет с большой скоростью.
 
-3) Навесь GravityGun скрипт на объект Weapon внутри игрока.
+Внутри объекта Player есть объект Weapon.
+
+<img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/WeaponGameObject.png" width="400"/>
+
+Навесь GravityGun скрипт на объект Weapon.
+
+<img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/GravityGunComponent.png" width="400"/>
+
+Теперь мы можем метать предметы во врагов. Но враги никак на это не реагируют! Модифицируй скрипт [EnemyHealth.cs](https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/scripts/EnemyHealth.cs) так, чтобы при столкновении с объектом на высокой скорости враг получал урон.
 
 4) Запусти сцену и проверь, что все работает.

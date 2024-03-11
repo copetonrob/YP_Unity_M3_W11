@@ -4,7 +4,7 @@
 
 В этом задании мы реализуем механику вакуумной гранаты. Эта граната будет притягивать к себе всех врагов, которые попали в радиус взрыва и уменьшать их размер.
 
-<img src="https://github.com/copetonrob/YP_Unity_M3_W10/blob/main/img/task2.gif" width="600"/>
+<img src="https://github.com/copetonrob/YP_Unity_M3_W11/blob/main/img/task2.gif" width="600"/>
 
 ## Инструкция
 
